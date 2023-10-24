@@ -1,0 +1,11 @@
+
+/* main index*/
+.contenedor-ubi {
+    background-color: rgb(189, 24, 24);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2px;
+    grid-template-rows: 1fr auto;
+    justify-items: center;
+    align-items: center;
+}

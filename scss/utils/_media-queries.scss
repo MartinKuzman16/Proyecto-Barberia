@@ -1,0 +1,36 @@
+//media queries
+@media only screen and (max.width:768px)
+{
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img{
+        flex-direction: column;
+        align-items: center;
+        ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+        .ubi{
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        .card{flex-direction: column;
+            align-items: center;
+            padding: auto;
+            .img-servicios{
+                flex-direction: column;
+            align-items: center;
+            padding: auto;
+            }
+        }
+        
+        }
+        }
+        }
+    }
+}
+
