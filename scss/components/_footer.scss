@@ -1,15 +1,14 @@
 /* footer*/
-footer{
-    .logo-fijo {
-        position: fixed;
-        bottom: 100px;
-        width: 100px;
-        right: 20px;
+footer div img { width: 60px;
+    .iconos-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    .botones {
-        color: white;
-        font-weight: 200px;
-        padding: 10px;
-        text-decoration: none;
+
     }
+
+    }
+
 }
