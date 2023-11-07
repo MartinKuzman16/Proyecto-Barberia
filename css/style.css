@@ -1,4 +1,4 @@
-/* Estilos generales*/
+/* Estilos generales
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgb(0, 0, 0);
@@ -14,32 +14,26 @@ h2 {
     text-align: center;
 }
 
-/*reset*/
+reset
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 
 }
-
-
-
-
-
 /*Estilos header con boostrap*/
 .fondo-negro {
     background-color: black;
 }
-
 /* Especifidad*/
-header {
-    display: flex;
+/* header{
+display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
     flex-direction: row;
 }
-
+    
 header img {
     width: 400px;
 }
@@ -48,7 +42,7 @@ header nav ul {
     list-style: none;
     text-decoration: none;
     display: flex;
-    column gap: 10px;
+    column-gap: 10px;
 }
 
 header nav ul li a {
@@ -58,38 +52,27 @@ header nav ul li a {
     text-decoration: none;
     display: flex;
 }
-
-
-
-
-
 section h2 {
     margin-top: 40px;
     font-size: 40px;
     text-align: center;
-}
-
+} */
 /* textos html*/
-.text1 {
+/* .text1 {
     text-align: center;
     color: white;
     justify-content: center;
-}
-
-
+} */
 /*Estilos para los mains*/
 main
-
 /*main productos*/
-.contenedor-flex {
+/* .contenedor-flex {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
-
 }
-
 .card {
     width: 330px;
     height: 250px;
@@ -97,34 +80,14 @@ main
     border-radius: 150px;
     overflow: hidden;
 }
-
 .card img {
     width: 100%;
     height: 250px;
-}
-
+} */
 /* main index*/
-.contenedor-ubi {
-    
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 2px;
-    grid-template-rows: 1fr auto;
-    justify-items: center;
-    align-items: center;
-
-
-
-}
-.ubi{
-    width: 400px;
-    height: 400px;
-}
-
 
 /*Main Nuestros servicios*/
-
-.img-servicios {
+/* .img-servicios {
     width: 300px;
     height: 300px;
     padding: 0px;
@@ -132,20 +95,13 @@ main
     border: 5px solid black;
     border-radius: 30px;
     align-self: center;
-}
-
-
+} */
 /* Main de quienes somos*/
 
 
 
-
-
-
-
-
 /*footer html*/
-footer div img{
+/* footer div img{
     width: 60px;
 }
 .iconos-footer{
@@ -154,47 +110,36 @@ footer div img{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-
-
+} */
 /*medias queries */
-
-@media screen and (max-width: 768px) {
-    header {
+/* @media screen and (max-width: 768px) { */
+    /* header {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
     header img {
         flex-direction: column;
         align-items: center;
     }
-
     header nav ul {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 80vw;
     }
-
     .ubi {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 10px;
-    }
-
-    .card {
+        padding: 10px; */
+    
+    /* .card {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 10px;
-
-
     }
-
     .img-servicios {
         flex-direction: column;
         align-items: center;
@@ -202,4 +147,10 @@ footer div img{
         margin:10px;
         
     }
+    .iconos-footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    } */
 }
